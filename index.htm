@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="bgimg-1">
+    <img src="images/logo.png" class="logo">
+    <div class="caption">
+      <div class="bolder">PLAN YOUR NEXT VACATION WITH US!</div>
+      <div class="normal">You Chose The Adventure, We Make It Happen</div>
+
+      <a href="#contact" class="CTA link-item">RESERVATION</a>
+
+    </div>
+  </div>
+
+  <div class="bgimg-2">
+    <section>
+      <h1>BEST DESTINATION</h1>
+      <div class="grid-group">
+        <div class="grid-item">
+          <img src="images/australia.png" alt="indonesia">
+          <div class="grid-caption">
+            Australia
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/hawaii.png" alt="indonesia">
+          <div class="grid-caption">
+            Hawaii
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/indonesia.jpg" alt="indonesia">
+          <div class="grid-caption">
+            Indonesia
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/itlay.png" alt="indonesia">
+          <div class="grid-caption">
+            Italy
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/london.png" alt="indonesia">
+          <div class="grid-caption">
+            London
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/malysia.png" alt="indonesia">
+          <div class="grid-caption">
+            Malaysia
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/paris.png" alt="indonesia">
+          <div class="grid-caption">
+            Paris
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="images/thailand.png" alt="indonesia">
+          <div class="grid-caption">
+            Thailand
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+  </div>
+
+  <div style="background-color: #f7f7f7;" id="contact">
+    <section>
+      <div class="flex-group">
+        <div class="img-side">
+          <img src="images/inspiring-img.png" alt="">
+        </div>
+        <div class="contact-form">
+          <h1 style="text-align: center; margin-bottom: 20px;">ARE YOU READY</h1>
+          <form id="my-form" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name.." aria-label="Your Name.." required>
+            <input type="email" id="email" name="email" placeholder="Your Email.." aria-label="Your Email.." required>
+            <input type="text" id="subject" name="subject" placeholder="Your Subject.." aria-label="Your Subject.."
+              required>
+            <textarea id="message" name="message" placeholder="Write something.."
+              aria-label="Write something.."></textarea>
+            <button type="submit">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="styles/jquery.min.js"></script>
+  <script>
+    document.querySelectorAll('.link-item').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+  </script>
+</body>
+
+</html>
