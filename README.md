@@ -2,8 +2,9 @@
 
 ## Work In Progress
 
-- [ ] Main Banner Section
+- [x] Main Banner Section
 - [ ] Service Section
 - [ ] Top Package Section
-- [ ] Best Destination
-- [ ] Contact Section
+- [x] Best Destination
+- [x] Contact Section
+- [ ] Integrating Dynamic Data Bind
