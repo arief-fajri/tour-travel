@@ -15,11 +15,14 @@ function Headers(param) {
     var Caption = document.querySelector(".caption");
 
     header.prepend(img);
-    Caption.append(h1);
-    Caption.append(h2);
+    Caption.prepend(h2);
+    Caption.prepend(h1);
 
     header.style.backgroundImage = "url('"+param.banner+"')";
     img.setAttribute("src", param.logo);
+    img.setAttribute("class", "logo");
+    h2.setAttribute("class", "normal");
+    h1.setAttribute("class", "bolder");
     h1.innerHTML = param.title;
     h2.innerHTML = param.subtitle;
 }
@@ -38,8 +41,10 @@ function Destination(param) {
     caption.setAttribute("class", "grid-caption");
 }
 
-getJSON("./data.json").then(function(data) {
-  console.log(data);
+getJSON("https://arief-fajri.github.io/tour-travel/data.json").then(function(data) {
+ Headers(data);
+ console.log(data.destination);
+
 }).catch(error => {
   console.error(error);
 });

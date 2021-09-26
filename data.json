@@ -1,6 +1,12 @@
 {
-    "banner": "images/header-bg.jpg",
+    "banner": "images/bg2.jpg",
     "logo": "images/logo.png",
     "title": "PLAN YOUR NEXT VACATION WITH US!",
-    "subtitle": "You Chose The Adventure, We Make It Happen"
+    "subtitle": "You Chose The Adventure, We Make It Happen",
+    "destination": [
+        {
+            "pic": "images/australia.png",
+            "title": "Australia"
+        }
+    ]
 }
