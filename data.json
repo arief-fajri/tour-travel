@@ -1,39 +1,39 @@
 {
-    "banner": "https://github.com/arief-fajri/tour-travel/blob/main/images/bg2.jpg",
-    "logo": "https://github.com/arief-fajri/tour-travel/blob/main/images/logo.png",
+    "banner": "images/bg2.jpg",
+    "logo": "images/logo.png",
     "title": "PLAN YOUR NEXT VACATION WITH US!",
     "subtitle": "You Chose The Adventure, We Make It Happen",
     "destination": [
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/australia.png",
+            "pic": "images/australia.png",
             "title": "Australia"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/hawaii.png",
+            "pic": "images/hawaii.png",
             "title": "Hawaii"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/indonesia.jpg",
+            "pic": "images/indonesia.jpg",
             "title": "Indonesia"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/itlay.png",
+            "pic": "images/itlay.png",
             "title": "Italy"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/london.png",
+            "pic": "images/london.png",
             "title": "London"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/malysia.png",
+            "pic": "images/malysia.png",
             "title": "Malaysia"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/paris.png",
+            "pic": "images/paris.png",
             "title": "Paris"
         },
         {
-            "pic": "https://github.com/arief-fajri/tour-travel/blob/main/images/thailand.png",
+            "pic": "images/thailand.png",
             "title": "Thailand"
         }
     ]
