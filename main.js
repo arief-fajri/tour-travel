@@ -43,7 +43,7 @@ function Destination(param) {
 
 getJSON("https://arief-fajri.github.io/tour-travel/data.json").then(function(data) {
  Headers(data);
- 
+ data.destination.forEach(params => Destination(params));
 
 }).catch(error => {
   console.error(error);
