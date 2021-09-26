@@ -8,11 +8,11 @@
 
 <body>
 
-  <div class="bgimg-1">
+  <div class="bgimg-1" id="heading">
     <img src="images/logo.png" class="logo">
     <div class="caption">
-      <div class="bolder">PLAN YOUR NEXT VACATION WITH US!</div>
-      <div class="normal">You Chose The Adventure, We Make It Happen</div>
+      <h1 class="bolder">PLAN YOUR NEXT VACATION WITH US!</h1>
+      <h2 class="normal">You Chose The Adventure, We Make It Happen</h2>
 
       <a href="#contact" class="CTA link-item">RESERVATION</a>
 
@@ -71,9 +71,9 @@
             Thailand
           </div>
         </div>
-        
+
       </div>
-      
+
     </section>
   </div>
 
@@ -100,15 +100,18 @@
   </div>
   <script src="styles/jquery.min.js"></script>
   <script>
+    $.getJSON("data.json", function (json) {
+      console.log(json); // this will show the info it in firebug console
+    });
     document.querySelectorAll('.link-item').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
         });
+      });
+    });
   </script>
 </body>
 
