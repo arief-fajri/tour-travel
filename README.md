@@ -9,4 +9,4 @@ Preview : https://arief-fajri.github.io/tour-travel/
 - [ ] Top Package Section
 - [x] Best Destination
 - [x] Contact Section
-- [ ] Integrating Dynamic Data Bind
+- [x] Integrating Dynamic Data Bind

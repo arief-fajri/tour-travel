@@ -31,6 +31,7 @@ function Destination(param) {
     var items = document.createElement("div"); 
     var caption = document.createElement("div"); 
     var img = document.createElement("img");
+    var grid = document.querySelector(".grid-group");
 
     items.append(img);
     items.append(caption);
@@ -39,6 +40,8 @@ function Destination(param) {
     img.setAttribute("src", param.pic);
     items.setAttribute("class", "grid-item");
     caption.setAttribute("class", "grid-caption");
+
+    grid.append(items);
 }
 
 getJSON("https://arief-fajri.github.io/tour-travel/data.json").then(function(data) {

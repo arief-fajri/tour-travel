@@ -132,6 +132,13 @@ h1 {
     color: #000;
 }
 
+.sparator {
+    width: 100px;
+    height: 3px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
 .grid-group {
     display: grid;
     gap: 20px;
