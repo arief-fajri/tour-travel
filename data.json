@@ -7,6 +7,34 @@
         {
             "pic": "images/australia.png",
             "title": "Australia"
+        },
+        {
+            "pic": "images/hawaii.png",
+            "title": "Hawaii"
+        },
+        {
+            "pic": "images/indonesia.png",
+            "title": "Indonesia"
+        },
+        {
+            "pic": "images/italy.png",
+            "title": "Italy"
+        },
+        {
+            "pic": "images/london.png",
+            "title": "London"
+        },
+        {
+            "pic": "images/malaysia.png",
+            "title": "Malaysia"
+        },
+        {
+            "pic": "images/paris.png",
+            "title": "Paris"
+        },
+        {
+            "pic": "images/thailand.png",
+            "title": "Thailand"
         }
     ]
 }
